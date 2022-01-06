@@ -3,8 +3,10 @@ function carregar() {
     var img = document.getElementById('imagen')
     var data = new Date()
     var hora = data.getHours()
+    // estou trabalhando nisso //
     var min = data.getMinutes()
     var seg = data.getSeconds()
+    /////////////////////////////
     
     msg.innerHTML = `Agora são ${hora} horas.`
 
