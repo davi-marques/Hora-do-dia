@@ -7,6 +7,7 @@ function carregar() {
     var min = data.getMinutes()
     var seg = data.getSeconds()
     /////////////////////////////
+    var rep = true
     
     msg.innerHTML = `Agora são ${hora} horas.`
     // msg.innerHTML = `Agora são ${hora}:${min}:${seg} .`
